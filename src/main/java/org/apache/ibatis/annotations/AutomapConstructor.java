@@ -24,7 +24,7 @@ import java.lang.annotation.Target;
 /**
  * The marker annotation that indicate a constructor for automatic mapping.
  *
- * @author Tim Chen
+ * @author Jerry Li
  * @since 3.4.3
  */
 @Documented

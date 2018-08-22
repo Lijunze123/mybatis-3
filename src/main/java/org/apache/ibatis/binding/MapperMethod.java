@@ -135,7 +135,6 @@ public class MapperMethod {
       sqlSession.select(command.getName(), param, method.extractResultHandler(args));
     }
   }
-
   private <E> Object executeForMany(SqlSession sqlSession, Object[] args) {
     List<E> result;
     Object param = method.convertArgsToSqlCommandParam(args);
